@@ -1,0 +1,14 @@
+import os
+
+# file = open("./insumos/filename.txt", "w")
+# file.write("Primera linea" + os.linesep)
+# file.write("Segunda linea" + os.linesep)
+# file.write( "En un lugar de La Mancha..." + os.linesep)
+# file.close()
+
+
+filename = './insumos/filename.txt'
+print(os.path.getsize(filename), "bytes")
+# print(os.path.getmtime(filename))
+# print(os.path.getctime(filename))
+print(os.stat(filename))

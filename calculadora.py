@@ -18,3 +18,6 @@ print("5 ** 2 = ", g) # Muestra el cuadrado de 5
 width = 20
 height = 5 * 9
 print("width * height = ", width * height)
+
+
+print(24+28)
