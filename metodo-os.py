@@ -6,5 +6,3 @@ print(type(timeActual))
 print(timeActual)
 for i in range(len(timeActual)):
     print(i+1, timeActual[i], sep=' - ')
-
-
